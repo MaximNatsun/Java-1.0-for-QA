@@ -1,9 +1,9 @@
 public class Main {
 
     public static void main(String[] args) {
-	    String strJava = "I like Java!!!";
+	String strJava = "I like Java!!!";
 
-	    boolean analyzeStr1 = strJava.contains("Java");
+	boolean analyzeStr1 = strJava.contains("Java");
         System.out.println("Строка содержит 'Java': " + analyzeStr1);
 
         boolean analyzeStr2 = strJava.startsWith("I like");
